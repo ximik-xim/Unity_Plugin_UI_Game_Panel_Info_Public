@@ -64,7 +64,7 @@ public class UIGamePanelInfo : MonoBehaviour
 
     public void Open()
     {
-        if (_taskData.GetTaskData(_keyTaskDataOpen.GetData()).IsThereTask == false) 
+        if (_taskData.GetTaskData(_keyTaskDataOpen.GetData()).IsThereTasks() == false) 
         {
             OpenPanel();    
         }
@@ -84,7 +84,7 @@ public class UIGamePanelInfo : MonoBehaviour
     
     public void Close()
     {
-        if (_taskData.GetTaskData(_keyTaskDataClose.GetData()).IsThereTask == false) 
+        if (_taskData.GetTaskData(_keyTaskDataClose.GetData()).IsThereTasks() == false) 
         {
             ClosePanel();    
         }

@@ -50,15 +50,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0852c08ea53620499f1f55be6174736, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _listInsertDataInspector:
-  - Key:
-      _dataSO: {fileID: 11400000, guid: 4fd1dbeec8bfacf44a355d22fa10661c, type: 2}
-      _selectIndif: {fileID: 11400000, guid: b57ea5f7201c35d4da1c0d5535e01244, type: 2}
-      _error:
-        Enable: 0
-        TextError: 
-        MessageType: 0
-    Data: {fileID: 0}
+  _listInsertDataInspector: []
   _visibleData: 1
   _listVisible: []
 --- !u!114 &4583368545224124232
@@ -73,7 +65,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f41898ea5fc86246bdc76e184e8647d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _listContext: []
   _data: {fileID: 7108934935963305357}
 --- !u!1 &6834097241967540225
 GameObject:
@@ -125,8 +116,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _list:
   - Key:
-      _dataSO: {fileID: 11400000, guid: afa7b30513a117a4fb13240eee58f380, type: 2}
-      _selectIndif: {fileID: 11400000, guid: 6f3dd58552f922d4a9249ef21d33f59a, type: 2}
+      _dataSO: {fileID: 11400000, guid: b9c262a999bb967498855aaf5fe32157, type: 2}
+      _selectIndif: {fileID: 11400000, guid: 9c4d1f2c457f94141a913a85fd67a5b3, type: 2}
       _error:
         Enable: 0
         TextError: 

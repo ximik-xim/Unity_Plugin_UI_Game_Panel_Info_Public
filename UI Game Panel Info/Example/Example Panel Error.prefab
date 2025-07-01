@@ -236,15 +236,15 @@ MonoBehaviour:
   _isOpen: 0
   _patchTaskData: {fileID: 2989953902806368642}
   _keyTaskDataOpen:
-    _dataSO: {fileID: 11400000, guid: 180a6f6a3d62fa74f9e3bc02b1993625, type: 2}
-    _selectIndif: {fileID: 11400000, guid: dc8d1b7b247d23140b02bf8841c63bc0, type: 2}
+    _dataSO: {fileID: 11400000, guid: 9596a61d4dd6db24a8ff445bbbd7febd, type: 2}
+    _selectIndif: {fileID: 11400000, guid: 3a1fe0c70792c8e44a648c3a82bf130a, type: 2}
     _error:
       Enable: 0
       TextError: 
       MessageType: 0
   _keyTaskDataClose:
-    _dataSO: {fileID: 11400000, guid: 180a6f6a3d62fa74f9e3bc02b1993625, type: 2}
-    _selectIndif: {fileID: 11400000, guid: 3b4ea1fbf0cb41646a4c58e857b2719b, type: 2}
+    _dataSO: {fileID: 11400000, guid: 9596a61d4dd6db24a8ff445bbbd7febd, type: 2}
+    _selectIndif: {fileID: 11400000, guid: c9afc64eccd5bad49ad44958c712bed9, type: 2}
     _error:
       Enable: 0
       TextError: 
@@ -379,8 +379,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _patchStorageGamePanelInfo: {fileID: 156902263899578196}
   _keyPanel:
-    _dataSO: {fileID: 11400000, guid: 2e8a21299230e5b4c99fffd30479c555, type: 2}
-    _selectIndif: {fileID: 11400000, guid: 4c278cf605ec3a444be7b3ef06c1be3a, type: 2}
+    _dataSO: {fileID: 11400000, guid: 418a9027d26d95f449aa6adf6ff87b1a, type: 2}
+    _selectIndif: {fileID: 11400000, guid: cab99f7c2dc7f9347b6d06104c8a0291, type: 2}
     _error:
       Enable: 0
       TextError: 
@@ -403,7 +403,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &6691821093118956517
 RectTransform:
   m_ObjectHideFlags: 0
@@ -511,7 +511,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 2565955881772152064, guid: 2e465e4886a19234d937aa9c078e9018, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 8262f428b96f25d4297628821f49c6ba, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 8262f428b96f25d4297628821f49c6ba, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -611,7 +611,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _source: {fileID: 2876905499509667054}
-  _button: {fileID: 0}
+  _button: {fileID: 8034195087382280270}
 --- !u!1 &6034768299284061832
 GameObject:
   m_ObjectHideFlags: 0
@@ -662,19 +662,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _findMbsDkoDontDestroy: {fileID: 0}
   _keyDko:
-    _dataSO: {fileID: 11400000, guid: 9a033e435197f944fa840aa17d8b1f10, type: 2}
-    _selectIndif: {fileID: 11400000, guid: e41a5d7c70f1be446a57d08a4622edf4, type: 2}
+    _dataSO: {fileID: 11400000, guid: edc01dc1308ee704b98e8bb2b0bc81a0, type: 2}
+    _selectIndif: {fileID: 11400000, guid: b7585cd71415bb242974a3cf1de4b264, type: 2}
     _error:
       Enable: 0
       TextError: 
       MessageType: 0
   _keyGeneralLogic:
-    _dataSO: {fileID: 11400000, guid: 3ac279f5b650d72448fba38124891882, type: 2}
-    _selectIndif: {fileID: 11400000, guid: 7772554a955996d49ad606bd2ed5e894, type: 2}
+    _dataSO: {fileID: 11400000, guid: b97e5d3681283f643b16a6d2f641dff3, type: 2}
+    _selectIndif: {fileID: 11400000, guid: fa5a16be4c1509a4d841fef58a342aa4, type: 2}
     _error:
       Enable: 0
       TextError: 
       MessageType: 0
+  _isSaveDataDKO: 1
 --- !u!1 &6060066681255640435
 GameObject:
   m_ObjectHideFlags: 0
@@ -725,19 +726,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _findMbsDkoDontDestroy: {fileID: 0}
   _keyDko:
-    _dataSO: {fileID: 11400000, guid: 9a033e435197f944fa840aa17d8b1f10, type: 2}
-    _selectIndif: {fileID: 11400000, guid: c6647bee7ab9c5f43a29ea0ff12d8edb, type: 2}
+    _dataSO: {fileID: 11400000, guid: 388dea5d695b2e14c88c6b20148d9999, type: 2}
+    _selectIndif: {fileID: 11400000, guid: 306f89078b1207c43a904c789ac2e6a6, type: 2}
     _error:
       Enable: 0
       TextError: 
       MessageType: 0
   _keyGeneralLogic:
-    _dataSO: {fileID: 11400000, guid: f48e5f2455668664cbc87c952fe27c6b, type: 2}
-    _selectIndif: {fileID: 11400000, guid: 5aa33846ad57f47429a3dc28d85c97dd, type: 2}
+    _dataSO: {fileID: 11400000, guid: b9c262a999bb967498855aaf5fe32157, type: 2}
+    _selectIndif: {fileID: 11400000, guid: 9c4d1f2c457f94141a913a85fd67a5b3, type: 2}
     _error:
       Enable: 0
       TextError: 
       MessageType: 0
+  _isSaveDataDKO: 1
 --- !u!1 &7795449028920943645
 GameObject:
   m_ObjectHideFlags: 0

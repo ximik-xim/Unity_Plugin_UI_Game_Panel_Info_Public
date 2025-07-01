@@ -9,6 +9,7 @@ public class SetAwakeUIGamePanelInfoInStorage : MonoBehaviour
     
     [SerializeField]
     private GetDKOPatch _patchStorageGamePanelInfo;
+    private UIGamePanelInfoStorage _taskInfo;
 
     [SerializeField] 
     private GetDataSO_KeyUIGamePanelInfo _keyPanel;
@@ -35,8 +36,26 @@ public class SetAwakeUIGamePanelInfoInStorage : MonoBehaviour
     private void GetDataDKO()
     {
         var DKOData = (DKODataInfoT<UIGamePanelInfoStorage>)_patchStorageGamePanelInfo.GetDKO();
-        UIGamePanelInfoStorage taskInfo = DKOData.Data;
-        taskInfo.AddPanel(_keyPanel.GetData(), _panelInfo);
+        _taskInfo = DKOData.Data;
+
+        if (_taskInfo.IsInit == false)
+        {
+            _taskInfo.OnInit += OnInitStorage;
+            return;
+        }
+
+        InitStorage();
+    }
+
+    private void OnInitStorage()
+    {
+        _taskInfo.OnInit -= OnInitStorage;
+        InitStorage();
+    }
+    
+    private void InitStorage()
+    {
+        _taskInfo.AddPanel(_keyPanel.GetData(), _panelInfo);
 
         _isInit = true;
         OnInit?.Invoke();

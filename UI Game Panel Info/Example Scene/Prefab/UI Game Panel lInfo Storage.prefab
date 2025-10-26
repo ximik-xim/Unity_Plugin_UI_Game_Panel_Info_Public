@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7108934935963305357}
   - component: {fileID: 4583368545224124232}
   m_Layer: 5
-  m_Name: Game Pane lInfo Storage
+  m_Name: UI Game Panel lInfo Storage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

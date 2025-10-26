@@ -19,3 +19,7 @@ Unity_Plugin-General_Public - https://github.com/ximik-xim/Unity_Plugin-TList_Pu
 Unity_Plugin-TList_Public - https://github.com/ximik-xim/Unity_Plugin-General_Public
 
 Unity_Plugin_Storage_Key_Task_Public - https://github.com/ximik-xim/Unity_Plugin_Storage_Key_Task_Public
+
+---------------------------------------------------------------------------------------------------------
+
+Ну и так же нужно восстановить ключи TList из бэкапов. Для этого нажимаем на папку UI Game Panel Info кнопкой ПКМ и заходим в пункт TList -> К папке -> Стереть и восстановить все данные
